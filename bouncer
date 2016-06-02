@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/bouncer git https://github.com/mozilla-services/go-bouncer">
+  </head>
+  <body>
+    <h1>go.mozilla.org/bouncer</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/bouncer">godoc.org/go.mozilla.org/bouncer</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/go-bouncer">github.com/mozilla-services/go-bouncer</a></p>
+  </body>
+</html>

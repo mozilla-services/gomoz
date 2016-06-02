@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/mozlog git https://github.com/mozilla-services/go-mozlog">
+  </head>
+  <body>
+    <h1>go.mozilla.org/mozlog</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/mozlog">godoc.org/go.mozilla.org/mozlog</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/go-mozlog">github.com/mozilla-services/go-mozlog</a></p>
+  </body>
+</html>

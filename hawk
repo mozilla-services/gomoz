@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/hawk git https://github.com/mozilla-services/hawk-go">
+  </head>
+  <body>
+    <h1>go.mozilla.org/hawk</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/hawk">godoc.org/go.mozilla.org/hawk</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/hawk-go">github.com/mozilla-services/hawk-go</a></p>
+  </body>
+</html>

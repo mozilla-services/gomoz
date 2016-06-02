@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/mozldap git https://github.com/mozilla-services/mozldap">
+  </head>
+  <body>
+    <h1>go.mozilla.org/mozldap</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/mozldap">godoc.org/go.mozilla.org/mozldap</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/mozldap">github.com/mozilla-services/mozldap</a></p>
+  </body>
+</html>
