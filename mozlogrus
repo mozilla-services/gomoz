@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/mozlogrus git https://github.com/mozilla-services/go-mozlogrus">
+  </head>
+  <body>
+    <h1>go.mozilla.org/mozlogrus</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/mozlogrus">godoc.org/go.mozilla.org/mozlogrus</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/go-mozlogrus">github.com/mozilla-services/go-mozlogrus</a></p>
+  </body>
+</html>
