@@ -57,20 +57,20 @@ package mymodule // import "go.mozilla.org/myproject/mymodule"
 Note that your project must now live under
 `$GOPATH/src/go.mozilla.org/myproject`. 
 
-If you use a CI platform, make sure the source code is located in the right
-place before running tests, which may not be the case if the CI just clone the
-repo without trying to place it in the right location.
+## Use custom GOPATH in CI
 
-For example, in TravisCI:
+### travis-ci
+
+TravisCI has a directive to indicate the import path of your package, just add
+`go_import_path` to your `.travis.yml`.
+
 ```yaml
 language: go
 go:
   - 1.5
   - 1.6
   - tip
-before_install:
-  - mkdir -p $GOPATH/src/go.mozilla.org
-  - mv $GOPATH/src/github.com/mozilla-services/myproject $GOPATH/src/go.mozilla.org/myproject
+go_import_path: go.mozilla.org/myproject
 script:
   - go test go.mozilla.org/myproject
 ```
