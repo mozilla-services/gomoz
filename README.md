@@ -4,17 +4,54 @@ This repository contains the source files of go.mozilla.org.
 
 ## Add a new project
 
-Copy one of the project file and edit the source and godoc locations to match
-your own. The name you use in `go.mozilla.org/<project>` does not need to be the
+Create a directory with the name of your project and create an index.html file
+in the directory that references the git location of the source code.
+
+You can copy an existing index.html from another project and edit it.
+
+The name you use in `go.mozilla.org/<project>` does not need to be the
 same as the one you host the code under. For example,
 `https://github.com/mozilla-services/hawk-go` uses `go.mozilla.org/hawk`.
 
-## Using a custom import path in your project
+If your project has packages, create a directory structure that matches the
+packages structure, and give each package its own index.html file.
+
+For example:
+```bash
+userplex/
+├── index.html
+└── modules
+    ├── authorizedkeys
+    │   └── index.html
+    ├── aws
+    │   └── index.html
+    ├── datadog
+    │   └── index.html
+    └── index.html
+
+```
+
+Note that sub-packages must use the git location of the top-level repository.
+For example, 
+```
+<meta name="go-import"
+    content="go.mozilla.org/userplex/modules/aws
+             git https://github.com/mozilla-services/userplex">
+```
+
+The sub-package `go.mozilla.org/userplex/modules/aws` uses the top-level git
+repository `https://github.com/mozilla-services/userplex`.
+
+## Set a custom import path in your packages
+
+This is only needed for packages that are importable. The `main` package does
+not need to specify a custom import path since it cannot be imported by other
+Go programs.
 
 In the source go files of your project, next to the package name, add a line
 that references the `go.mozilla.org` import path:
 ```go
-package main // import "go.mozilla.org/myproject"
+package mymodule // import "go.mozilla.org/myproject/mymodule"
 ```
 
 Note that your project must now live under
