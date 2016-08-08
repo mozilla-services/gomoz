@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="go-import" content="go.mozilla.org/userplex/modules/datadog git https://github.com/mozilla-services/userplex">
+  </head>
+  <body>
+    <h1>go.mozilla.org/userplex</h1>
+    <p>godoc: <a href="https://godoc.org/go.mozilla.org/userplex/modules/datadog">godoc.org/go.mozilla.org/userplex/modules/datadog</a></p>
+    <p>source: <a href="https://github.com/mozilla-services/userplex/tree/master/modules/datadog">github.com/mozilla-services/userplex/tree/master/modules/datadog</a></p>
+  </body>
+</html>
