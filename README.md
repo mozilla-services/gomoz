@@ -85,3 +85,9 @@ aws s3 sync . s3://go.mozilla.org \
     --content-type "text/html" --acl public-read \
     --delete
 ```
+
+Then invalidate the cloudfront cache
+
+```bash
+$ aws cloudfront create-invalidation --distribution-id ESQYDMA17GDLC --paths '/*'
+```
