@@ -82,8 +82,7 @@ As an AWS admin of the prod IAM, use this command:
 ```bash
 aws s3 sync . s3://go.mozilla.org \
     --exclude "README.md" --exclude ".git/*" \
-    --content-type "text/html" --acl public-read \
-    --delete
+    --content-type "text/html" --acl public-read
 ```
 
 Then invalidate the cloudfront cache
